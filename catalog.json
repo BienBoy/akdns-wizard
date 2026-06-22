@@ -1,0 +1,1401 @@
+{
+    "backends": [
+        {
+            "name": "HKBN",
+            "geocode": "HK"
+        },
+        {
+            "name": "HK",
+            "geocode": "HK"
+        },
+        {
+            "name": "JP",
+            "geocode": "JP"
+        },
+        {
+            "name": "TW",
+            "geocode": "TW"
+        },
+        {
+            "name": "SG",
+            "geocode": "SG"
+        },
+        {
+            "name": "US",
+            "geocode": "US"
+        },
+        {
+            "name": "UK",
+            "geocode": "GB"
+        },
+        {
+            "name": "DE",
+            "geocode": "DE"
+        },
+        {
+            "name": "SoftBank",
+            "geocode": "JP"
+        },
+        {
+            "name": "HINET",
+            "geocode": "TW"
+        },
+        {
+            "name": "MO",
+            "geocode": "MO"
+        },
+        {
+            "name": "KR",
+            "geocode": "KR"
+        },
+        {
+            "name": "TW(HK)",
+            "geocode": "TW"
+        }
+    ],
+    "services": [
+        {
+            "name": "Netflix",
+            "icon": "/assets/logos/netflix-com.png",
+            "domains": [
+                "netflix.com",
+                "nflxvideo.net",
+                "nflxso.net"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Disney+",
+            "icon": "/assets/logos/disneyplus-com.png",
+            "domains": [
+                "dssott.com",
+                "disney.com",
+                "bamgrid.com",
+                "disney-plus.net",
+                "disney-portal.my.onetrust.com",
+                "disneyplus.com",
+                "disney.api.edge.bamgrid.com",
+                "disney.content.edge.bamgrid.com",
+                "disney.playback.edge.bamgrid.com",
+                "disney.playback.edge.bamgrid.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "ChatGPT",
+            "icon": "/assets/logos/openai-com.png",
+            "domains": [
+                "chatgpt.com",
+                "openai.com",
+                "oaistatic.com",
+                "crixet.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Sora",
+            "icon": "/assets/logos/openai-com.png",
+            "domains": [
+                "sora.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Apple AI",
+            "icon": "/assets/logos/apple-com.png",
+            "domains": [
+                "apple-relay.cloudflare.com",
+                "gspe1-ssl.ls.apple.com",
+                "cp4.cloudflare.com",
+                "apple-relay.fastly-edge.com",
+                "smoot.apple.com",
+                "guzzoni.apple.com",
+                "humb.apple.com",
+                "apple-relay.apple.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Meta AI",
+            "icon": "/assets/logos/meta-ai.png",
+            "domains": [
+                "meta.ai"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Spotify",
+            "icon": "/assets/logos/spotify-com.png",
+            "domains": [
+                "spotify.com",
+                "scdn.co"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN"
+            ]
+        },
+        {
+            "name": "Google Search",
+            "icon": "/assets/logos/google-com.png",
+            "domains": [
+                "www.google.com",
+                "drive.google.com",
+                "www.google.co.jp",
+                "googleusercontent.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN"
+            ]
+        },
+        {
+            "name": "Youtube",
+            "icon": "/assets/logos/youtube-com.png",
+            "domains": [
+                "youtube.com",
+                "ytimg.com",
+                "googlevideo.com",
+                "youtubei.googleapis.com",
+                "appsgenaiserver-pa.googleapis.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN"
+            ]
+        },
+        {
+            "name": "Google AI",
+            "icon": "/assets/logos/gemini-google-com.png",
+            "domains": [
+                "deepmind.com",
+                "deepmind.google",
+                "geller-pa.googleapis.com",
+                "generativelanguage.googleapis.com",
+                "proactivebackend-pa.googleapis.com",
+                "robinfrontend-pa.googleapis.com",
+                "ai.google.dev",
+                "alkalicore-pa.clients6.google.com",
+                "alkalimakersuite-pa.clients6.google.com",
+                "webchannel-alkalimakersuite-pa.clients6.google.com",
+                "generativeai.google",
+                "makersuite.google.com",
+                "ai.studio",
+                "aistudio.google.com",
+                "bard.google.com",
+                "gemini.google",
+                "gemini.google.com",
+                "cloudaicompanion.googleapis.com",
+                "cloudcode-pa.googleapis.com",
+                "daily-cloudcode-pa.googleapis.com",
+                "notebooklm-pa.googleapis.com",
+                "notebooklm.googleapis.com",
+                "notebooklm.google",
+                "notebooklm.google.com",
+                "jules.google",
+                "jules.google.com",
+                "labs.google",
+                "labs.google.com",
+                "aisandbox-pa.googleapis.com",
+                "aida.googleapis.com",
+                "opal.google",
+                "opal.google.com",
+                "antigravity-pa.googleapis.com",
+                "antigravity.googleapis.com",
+                "antigravity.google",
+                "antigravity-unleash.goog"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Google Play",
+            "icon": "/assets/logos/play-google-com.png",
+            "domains": [
+                "services.googleapis.cn",
+                "xn--ngstr-lra8j.com",
+                "xn--ngstr-cn-8za9o.com",
+                "googleplay.com",
+                "play-fe.googleapis.com",
+                "play-games.googleusercontent.com",
+                "play-lh.googleusercontent.com",
+                "play.google.com",
+                "play.googleapis.com",
+                "redirector.c.play.google.com",
+                "chromewebstore.google.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "动画疯",
+            "icon": "/assets/logos/ani-gamer-com-tw.png",
+            "domains": [
+                "gamer.com.tw"
+            ],
+            "blockedBackends": [
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Bilibili",
+            "icon": "/assets/logos/bilibili-com.png",
+            "domains": [
+                "bilibili.com"
+            ],
+            "blockedBackends": [
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "TikTok",
+            "icon": "/assets/logos/tiktok-com.png",
+            "domains": [
+                "tiktok.com",
+                "tiktokv.com",
+                "tiktokcdn.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Claude",
+            "icon": "/assets/logos/claude-ai.png",
+            "domains": [
+                "claude.ai",
+                "anthropic.com",
+                "claudeusercontent.com",
+                "claude.com",
+                "claudemcpclient.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "HotStar",
+            "icon": "/assets/logos/hotstar-com.png",
+            "domains": [
+                "hotstar.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Instagram",
+            "icon": "/assets/logos/instagram-com.png",
+            "domains": [
+                "instagram.com",
+                "cdninstagram.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Dazn",
+            "icon": "/assets/logos/dazn-com.png",
+            "domains": [
+                "indazn.com"
+            ],
+            "blockedBackends": [
+                "JP",
+                "TW",
+                "SoftBank",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "Abema TV",
+            "icon": "/assets/logos/abema-tv.png",
+            "domains": [
+                "abema.io",
+                "abema.jp",
+                "abema-tv.com",
+                "abema.tv",
+                "ds-vod-abematv.akamaized.net",
+                "ds-linear-abematv.akamaized.net",
+                "vod-abematv.akamaized.net",
+                "linear-abematv.akamaized.net"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "HBO MAX",
+            "icon": "/assets/logos/max-com.png",
+            "domains": [
+                "max.com",
+                "discomax.com",
+                "hbomax.com",
+                "branch.io"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "KKTV",
+            "icon": "/assets/logos/kktv-me.png",
+            "domains": [
+                "kktv.me"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Line TV",
+            "icon": "/assets/logos/linetv-tw.png",
+            "domains": [
+                "linetv.tw"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Ofiii",
+            "icon": "/assets/logos/ofiii-com.png",
+            "domains": [
+                "ofiii.com",
+                "ntdofifreepc-tgc.cdn.hinet.net"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "MyTVSuper",
+            "icon": "/assets/logos/mytvsuper-com.png",
+            "domains": [
+                "mytvsuper.com"
+            ],
+            "blockedBackends": [
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Viu.TV",
+            "icon": "/assets/logos/viu-tv.png",
+            "domains": [
+                "viu.tv",
+                "viu.now.com",
+                "nowe.com"
+            ],
+            "blockedBackends": [
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Viu.com",
+            "icon": "/assets/logos/viu-com.png",
+            "domains": [
+                "viu.com",
+                "d3o7oi00quuwqu.cloudfront.net"
+            ],
+            "blockedBackends": [
+                "JP",
+                "TW",
+                "UK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "TVBAnywhere+",
+            "icon": "/assets/logos/tvbanywhere-com.png",
+            "domains": [
+                "tvbanywhere.com.sg"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "HOY TV",
+            "icon": "/assets/logos/hoy-tv.png",
+            "domains": [
+                "hoy.tv"
+            ],
+            "blockedBackends": [
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Hami Video",
+            "icon": "/assets/logos/hamivideo-hinet-net.png",
+            "domains": [
+                "hamivideo.hinet.net",
+                "webvodad-hamivideo.cdn.hinet.net"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "CatchPlay+",
+            "icon": "/assets/logos/catchplay-com.png",
+            "domains": [
+                "sunapi.catchplay.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Friday Video",
+            "icon": "/assets/logos/video-friday-tw.png",
+            "domains": [
+                "video.friday.tw"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "4GTV",
+            "icon": "/assets/logos/4gtv-tv.png",
+            "domains": [
+                "4gtv.tv"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "DMM",
+            "icon": "/assets/logos/dmm-com.png",
+            "domains": [
+                "dmm.com",
+                "dmm.co.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Hulu Japan",
+            "icon": "/assets/logos/hulu-jp.png",
+            "domains": [
+                "hulu.jp",
+                "hjholdings.tv",
+                "c-vod.happyon-cdn.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "NicoNico",
+            "icon": "/assets/logos/nicovideo-jp.png",
+            "domains": [
+                "nicovideo.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "NHK+",
+            "icon": "/assets/logos/plus-nhk-jp.png",
+            "domains": [
+                "nhk.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "U-NEXT",
+            "icon": "/assets/logos/unext-jp.png",
+            "domains": [
+                "unext.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "TVer",
+            "icon": "/assets/logos/tver-jp.png",
+            "domains": [
+                "streaks.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "D Anime Store",
+            "icon": "/assets/logos/animestore-docomo-ne-jp.png",
+            "domains": [
+                "animestore.docomo.ne.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "J:com On Demand",
+            "icon": "/assets/logos/jcom-co-jp.png",
+            "domains": [
+                "zaq.ne.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Pretty Derby Japan",
+            "icon": "/assets/logos/umamusume-jp.png",
+            "domains": [
+                "umamusume.com",
+                "api-umamusume.cygames.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "VideoMarket",
+            "icon": "/assets/logos/videomarket-jp.png",
+            "domains": [
+                "videomarket.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "FOD(Fuji TV)",
+            "icon": "/assets/logos/fod-fujitv-co-jp.png",
+            "domains": [
+                "fujitv.co.jp",
+                "stream.ne.jp",
+                "geo.fod.j-stream.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Radiko",
+            "icon": "/assets/logos/radiko-jp.png",
+            "domains": [
+                "radiko.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Karaoke@DAM",
+            "icon": "/assets/logos/clubdam-com.png",
+            "domains": [
+                "clubdam.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Lemino",
+            "icon": "/assets/logos/lemino-docomo-ne-jp.png",
+            "domains": [
+                "lemino.docomo.ne.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "MGStage",
+            "icon": "/assets/logos/mgstage-com.png",
+            "domains": [
+                "mgstage.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "AnimeFesta",
+            "icon": "/assets/logos/animefesta-iowl-jp.png",
+            "domains": [
+                "api-animefesta.iowl.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Telasa",
+            "icon": "/assets/logos/telasa-jp.png",
+            "domains": [
+                "kddi-video.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "WOWOW",
+            "icon": "/assets/logos/wowow-co-jp.png",
+            "domains": [
+                "wowow.co.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Rakuten TV JP",
+            "icon": "/assets/logos/rakuten-tv.png",
+            "domains": [
+                "movetv.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Princess Connect Re:Dive Japan",
+            "icon": "/assets/logos/priconne-redive-jp.png",
+            "domains": [
+                "api-priconne-redive.cygames.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Project Sekai: Colorful Stage",
+            "icon": "/assets/logos/pjsekai-sega-jp.png",
+            "domains": [
+                "sekai.colorfulpalette.org"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Rakuten MAGAZINE",
+            "icon": "/assets/logos/magazine-rakuten-co-jp.png",
+            "domains": [
+                "magazine.rakuten.co.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Mora",
+            "icon": "/assets/logos/mora-jp.png",
+            "domains": [
+                "mora.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "music.jp",
+            "icon": "/assets/logos/music-jp.png",
+            "domains": [
+                "music-book.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "EroGameSpace",
+            "icon": "/assets/logos/erogamescape-dyndns-org.png",
+            "domains": [
+                "erogamescape.org"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "WATCHA",
+            "icon": "/assets/logos/watcha-com.png",
+            "domains": [
+                "watcha.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Reddit",
+            "icon": "/assets/logos/reddit-com.png",
+            "domains": [
+                "reddit.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "SD Gundam G Generation Eternal",
+            "icon": "/assets/logos/gget-ggame-jp.png",
+            "domains": [
+                "eternal.channel.or.jp"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Wikipedia",
+            "icon": "/assets/logos/wikipedia-org.png",
+            "domains": [
+                "wikipedia.org"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "iQyi Oversea",
+            "icon": "/assets/logos/iq-com.png",
+            "domains": [
+                "iq.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN"
+            ]
+        },
+        {
+            "name": "Amazon Prime Video",
+            "icon": "/assets/logos/primevideo-com.png",
+            "domains": [
+                "primevideo.com"
+            ],
+            "blockedBackends": [
+                "SoftBank",
+                "HINET",
+                "HKBN"
+            ]
+        },
+        {
+            "name": "Microsoft Copilot",
+            "icon": "/assets/logos/copilot-microsoft-com.png",
+            "domains": [
+                "copilot.microsoft.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO"
+            ]
+        },
+        {
+            "name": "MyVideo",
+            "icon": "/assets/logos/myvideo-net-tw.png",
+            "domains": [
+                "myvideo.net.tw"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "SG",
+                "US",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Discovery+",
+            "icon": "/assets/logos/discoveryplus-com.png",
+            "domains": [
+                "discoveryplus.com",
+                "disco-api.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        },
+        {
+            "name": "Paramount+",
+            "icon": "/assets/logos/paramountplus-com.png",
+            "domains": [
+                "paramountplus.com"
+            ],
+            "blockedBackends": [
+                "HK",
+                "JP",
+                "TW",
+                "SG",
+                "UK",
+                "DE",
+                "SoftBank",
+                "HINET",
+                "HKBN",
+                "MO",
+                "KR",
+                "TW(HK)"
+            ]
+        }
+    ]
+}
