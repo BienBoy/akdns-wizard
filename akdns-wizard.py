@@ -519,6 +519,7 @@ class ProbeResult:
 @dataclass
 class Service:
     name: str
+    rule_name: str | None = None
     domains: list[str] = field(default_factory=list)
     blocked_backends: set[str] = field(default_factory=set)
     source_catalog: bool = False
@@ -702,9 +703,11 @@ def load_catalog(path: Path) -> tuple[dict[str, Backend], OrderedDict[str, Servi
     }
     services: OrderedDict[str, Service] = OrderedDict()
     for item in catalog.get("services", []):
-        name = canonical_service_name(item["name"])
+        rule_name = item["name"]
+        name = canonical_service_name(rule_name)
         service = Service(
             name=name,
+            rule_name=rule_name,
             domains=dedupe(item.get("domains", [])),
             blocked_backends=set(item.get("blockedBackends", [])),
             source_catalog=True,
@@ -2437,7 +2440,7 @@ def parse_dns_servers(raw: str) -> list[str]:
 
 def make_rules_json(services: list[Service]) -> str:
     rules = [
-        {"service": service.name, "backend": service.selected_backend}
+        {"service": service.rule_name or service.name, "backend": service.selected_backend}
         for service in services
         if service.selected and service.selected_backend
     ]
